@@ -27,6 +27,7 @@ var total = 0;
 			document.getElementById("valor_Ingresos").value = "";
             document.getElementById("descripcion__Ingresos").value = "";
 		}
+
 		
 		function agregarGasto() {
 			var descripcion2 = (document.getElementById("descripcion__Gastos").value);

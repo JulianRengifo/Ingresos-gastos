@@ -18,7 +18,7 @@
             <h2>INGRESOS</h2>
             <input type="text" id="descripcion__Ingresos" placeholder="Ingrese una descripcion">
             <input type="number" id="valor_Ingresos" placeholder="$ Ingrese un valor">
-            <button onclick="agregarIngreso(); restar()">AGREGAR</button>
+            <button class="btn__Ingresos" onclick="agregarIngreso(); restar()">AGREGAR</button>
         
             
                 <table class="container__table">
@@ -45,7 +45,7 @@
         <h2>GASTOS</h2>
         <input type="text" id="descripcion__Gastos" placeholder="Ingrese una descripcion">
         <input type="number" id="valor_Gastos" placeholder="$ Ingrese un valor">
-        <button onclick="agregarGasto(); restar()">AGREGAR</button>
+        <button class="btn__Gastos" onclick="agregarGasto(); restar()">AGREGAR</button>
         <table class="container__table">
             <thead>
                 <tr class="container__tr__gastos">
@@ -68,7 +68,7 @@
         <h2>SALDO</h2>
         <table class="container__table">
             <thead>
-                <tr>
+                <tr class="container__tr__saldo">
                     <th>TOTAL INGRESOS</th>
                     <th>TOTAL GASTOS</th>
                     <th>SALDO</th>
